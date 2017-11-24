@@ -16,7 +16,7 @@ public class Question{
       question = q;
       type = t;
       option1 = o1;
-      option2 = o1;
+      option2 = o2;
       option3 = o3;
       option4 = o4;
       answer = a;

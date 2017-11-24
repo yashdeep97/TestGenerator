@@ -9,7 +9,7 @@ public class SQLiteJDBC {
 
    private Connection conn = null;
    private Statement statement = null;
-   public Vector<Question> questions = new Vector<Question> (20);
+   public Vector<Question> questions;
 
    public SQLiteJDBC() {      
       try {
@@ -23,7 +23,7 @@ public class SQLiteJDBC {
    }
 
    public void selectQuestions(){
-      
+      questions = new Vector<Question> (20);
       try{
          statement = conn.createStatement();
          ResultSet result = statement.executeQuery( "SELECT * FROM questions;" );

@@ -49,18 +49,18 @@ public class Users{
 		}
 	} 
 
-// 	public static void main(String[] args) {
-// 		Users user = new Users();
-// 		System.out.println(user.login("yashdeep","1234"));
+	// public static void main(String[] args) {
+	// 	Users user = new Users();
+	// 	// System.out.println(user.login("yashdeep","1234"));
 
-// 		user.getAllEntries();
+	// 	user.getAllEntries();
 
-// 		Question q = user.viewQuestion(2);
-// 		q.printComplete();
+	// 	Question q = user.viewQuestion(2);
+	// 	// q.printComplete();
+	// 	System.out.println(q.option2);
+	// 	// user.generateTest(3);
+	// 	// user.delete(4);
 
-// 		user.generateTest(3);
-// 		// user.delete(4);
-
-// 		// user.insertNew("john snow knows everything",1,,"false","GOT");
-// 	}
+	// 	// user.insertNew("john snow knows everything",1,,"false","GOT");
+	// }
 }
